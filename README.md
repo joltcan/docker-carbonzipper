@@ -15,7 +15,7 @@ I only need the binary, not all a proper dist, so I :
 
 In short:
 ```shell
-docker run -d --name carbonzipper --volume $(pwd)/carbonzipper.conf:/carbonzipper.conf jolt/carbonzipper
+docker run -d --name carbonzipper --volume $(pwd)/carbonzipper.conf:/carbonzipper.conf -p 8086:8086 jolt/carbonzipper
 ```
 
 ### Thanks to
